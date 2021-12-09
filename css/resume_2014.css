@@ -1,0 +1,713 @@
+@charset "euc-kr";
+/* CSS Document 2014-11-17 skydown@career.co.kr */
+
+/* 퀵메뉴 */
+.quickWrap {position:relative; width:912px; margin: 0 auto;}
+.quickInner {position:absolute; right:-112px; top:86px; width:92px;}
+.quickmenu {position:absolute; top:0; width:92px; background-color:#fff; text-align:center;}
+.quickmenu .resume,
+.quickmenu .tools {border:1px solid #e5e5e5; border-top:0 none;}
+.quickmenu .resume {padding:8px 0 9px; background-color:#f8f8f8;}
+.quickmenu .resume label.lb {margin-right:3px;}
+.quickmenu .resume label.lb input.chk {margin:0 3px 0 0;}
+.quickmenu .resume label.lb span {color:#333; letter-spacing:-2px;}
+.quickmenu .resume button.btn {margin-top:6px;}
+.quickmenu .tools {padding-top:10px;}
+.quickmenu .tools ul {border-bottom:1px solid #e5e5e5;}
+.quickmenu .tools li {height:64px;}
+.quickmenu .tools li a,
+.quickmenu .tools li span {display:block;}
+.quickmenu .tools li span {height:23px; line-height:23px;}
+
+/* 상세이력서 - 지원분야 */
+.detailWrap .resumefield {background-color:#fff; border:1px solid #bbb; border-bottom:2px solid #595959;}
+.detailWrap .resumefield .box {padding:3px;}
+.detailWrap .resumefield input.txt {width:902px; height:36px; background-color:transparent; border-color:transparent; font-size:13px; line-height:37px\0; *line-height:37px; text-align:center;}
+.detailWrap .resumefield input.txt.on {border-color:#ffc600;}
+/* 상세이력서 - 회원 기본정보 */
+.detailWrap .userinfo .tb tr.address input.txt2,
+.detailWrap .userinfo .tb tr.homepage input.txt {width:396px;}
+.detailWrap .userinfo div.contact {border-top:3px solid #595959;}
+.detailWrap .userinfo div.contact .inner {zoom:1; border-left:1px solid #e5e5e5; border-right:1px solid #e5e5e5;}
+.detailWrap .userinfo div.contact .inner:after {content:""; display:block; clear:both;}
+.detailWrap .userinfo div.contact dl {position:relative; float:left; height:117px; border-left:1px solid #e5e5e5;}
+.detailWrap .userinfo div.contact dl.d1 {width:209px; border-left:0 none;}
+.detailWrap .userinfo div.contact dl.d2 {width:290px;}
+.detailWrap .userinfo div.contact dl.d3 {width:409px;}
+.detailWrap .userinfo div.contact dt,
+.detailWrap .userinfo div.contact dd {padding-left:30px;}
+.detailWrap .userinfo div.contact dt {padding-top:27px; color:#333;}
+.detailWrap .userinfo div.contact dd {padding-top:18px;}
+.detailWrap .userinfo div.contact dd span.text {display:inline-block; height:26px; padding:0 6px 0 2px; *padding:0 5px 0 4px; line-height:25px; line-height:28px\0; *line-height:30px; vertical-align:middle;}
+.detailWrap .userinfo div.contact .grp1 {position:absolute; left:118px; top:25px;}
+.detailWrap .userinfo div.contact .d1 span.selectbox {width:150px;}
+.detailWrap .userinfo div.contact .d2 span.selectbox {width:70px;}
+.detailWrap .userinfo div.contact .d3 span.sel1 {width:74px;}
+.detailWrap .userinfo div.contact .d3 span.sel2 {width:68px;}
+.detailWrap .userinfo div.contact .d3 label.lb {margin-left:30px;}
+/* 상세이력서 - 테이블 */
+.detailWrap .tb th {width:150px; white-space:nowrap;}
+.detailWrap .tb th div {padding-left:40px;}
+.detailWrap .tb td .btn {margin-left:8px; *margin-left:11px;}
+.detailWrap .tb td .tooltip {position:relative; margin-left:8px; vertical-align:middle;}
+.detailWrap .tb td .tooltip .box {display:none; position:absolute; bottom:15px; left:50%; width:400px; margin-left:-191px; padding-bottom:18px; background:url(http://image.career.co.kr/career_new3/join/tip_profile_bt.png) no-repeat 0 100%;}
+.detailWrap .tb td .tooltip .inn {padding:20px; background-color:#fffde4; border:1px solid #ffc600; border-bottom-width:0;}
+.detailWrap .tb td .tooltip .inn h2 {margin-bottom:11px;}
+.detailWrap .tb td .tooltip .inn p {line-height:18px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+.detailWrap .tb td .tooltip .inn strong.s1 {color:#fd7c1d;}
+.detailWrap .tb td .tooltip .inn strong.s2 {color:#0d6ebc;}
+.detailWrap .tb td .tooltip .inn .close {position:absolute; right:10px; top:10px; *width:15px;}
+.detailWrap .tb2 th,
+.detailWrap .tb2 td {padding:10px 0;}
+.detailWrap .tb2 td.td1 {width:306px;}
+.detailWrap .tb2 td .grp {margin-top:10px;}
+.detailWrap .tb2 td .grp1 {margin-top:0;}
+
+/* 여백/추가/삭제 */
+.detailWrap .resetinfo {margin-bottom:27px;}
+.detailWrap .fncbutton {position:relative;}
+.detailWrap .fncbutton .check {position:absolute; left:0; top:0; padding:12px 0 0 10px;}
+.detailWrap .fncbutton .check label {color:#333;}
+.detailWrap .fncbutton .inn {zoom:1; position:absolute; right:0; top:0; padding-top:10px;}
+.detailWrap .fncbutton .inn:after {content:""; display:block; clear:both;}
+.detailWrap .fncbutton p,
+.detailWrap .fncbutton button {float:left;}
+.detailWrap .fncbutton p {height:26px; padding-right:4px; color:#888; line-height:26px; line-height:29px\0; *line-height:29px;}
+.detailWrap .fncbutton button {display:inline; margin-left:6px;}
+.detailWrap .fncsingle {position:relative;}
+.detailWrap .fncsingle .inn {zoom:1; position:absolute; right:0; top:0; padding-top:10px;}
+.detailWrap .fncsingle .inn:after {content:""; display:block; clear:both;}
+.detailWrap .fncfix {right:62px;}
+.detailWrap .fncfix .check {left:62px; padding-left:0;}
+
+/* 상세이력서 - 개인 추가정보 */
+.detailWrap .moreinfo .tb th div {padding-left:20px;}
+.detailWrap .moreinfo .tb td label.lb {margin-left:30px;}
+.detailWrap .moreinfo .tb tr.t3 label.lb2 {margin-right:10px;}
+.detailWrap .moreinfo .tb tr.t3 span.selectbox {margin:0 5px;}
+.detailWrap .moreinfo .tb tr.t3 span.selectbox,
+.detailWrap .moreinfo .tb tr.t5 span.selectbox {width:80px;}
+.detailWrap .moreinfo .tb tr.t5 .grp {margin-top:5px;}
+.detailWrap .moreinfo .tb tr.t5 .grp3 span.selectbox {margin-right:7px;}
+.detailWrap .moreinfo .tb tr.t5 .grp3 span.sel1 {width:140px;}
+.detailWrap .moreinfo .tb tr.t5 .grp3 span.sel2 {width:100px;}
+.detailWrap .moreinfo .tb tr.t5  td { padding:10px 0; }
+
+/* 상세이력서 - 소제목 */
+.detailWrap .stitle {padding-top:66px; border-top:1px solid #e5e5e5;}
+.detailWrap .stitle.first {padding-top:30px;}
+/* 상세이력서 - 구분 */
+.detailWrap .section {position:relative; margin-bottom:-1px; padding:20px 0; background-color:#f4faff; border-bottom:1px solid #c5d1da;}
+.detailWrap .section dl {zoom:1;}
+.detailWrap .section dl:after {content:""; display:block; clear:both;}
+.detailWrap .section dt {float:left; width:130px; padding-left:40px; color:#333; line-height:22px; line-height:26px\0; *line-height:28px;}
+.detailWrap .section dd {float:left; width:742px;}
+.detailWrap .section dd label.lb {float:left; background:url(http://image.career.co.kr/career_new3/resume/rdi_off.gif) no-repeat 0 5px; line-height:26px; line-height:29px\0; *line-height:29px;}
+.detailWrap .section dd label.lb input.rdi {width:18px; height:18px; opacity:0; filter:alpha(opacity=0); vertical-align:-4px;}
+.detailWrap .section dd label.lb span {font-size:16px; font-family:'NanumGothic';}
+.detailWrap .section dd label.on {background-image:url(http://image.career.co.kr/career_new3/resume/rdi_on.gif);}
+.detailWrap .section .desc {display:none; float:left; height:19px; margin:3px 0 0 26px; padding-left:30px; border-left:1px solid #c5d1da; color:#888; line-height:19px; vertical-align:middle;}
+/* 상세이력서 - JS 클래스 */
+.detailWrap div.clone {padding-top:54px; border-top:1px solid #e5e5e5;}
+.detailWrap div.clone .tb {border-top:1px solid #e5e5e5;}
+.detailWrap div.clone .stitle {padding-top:0; border:0 none;}
+.detailWrap .grp.clone {margin-top:10px;}
+.detailWrap .tb tr td span.button {position:absolute; bottom:0; *bottom:1px;}
+.detailWrap .tb tr td span.button button {margin-left:4px;}
+.detailWrap .tb tr td span.button button.add {margin-left:0;}
+.detailWrap .tb tr td span.button button.off {display:none;}
+
+
+/* 상세이력서 - 학력사항 구분 */
+.detailWrap .edusection span.selectbox {width:168px; margin-right:7px;}
+/* 상세이력서 - 학력사항 */
+.detailWrap .eduinfo .tb tr.t1 input.txt {width:198px;}
+.detailWrap .eduinfo .tb tr.t1 span.selectbox {width:128px; margin-left:7px; *margin-left:10px;}
+.detailWrap .eduinfo .tb tr.t0 label.lb {margin-left:27px;}
+/* 고등학교 */
+.detailWrap .highschool tr.t1 .td1 {width:740px;}
+.detailWrap .highschool tr.t2 .td1 span.selectbox {width:80px;}
+.detailWrap .highschool tr.t2 .td2 span.selectbox {width:128px;}
+/* 대학(2,3년) / 대학교(4년) / 대학원 */
+.detailWrap .university tr.t2 td {padding-top:0;}
+.detailWrap .university tr.t2 td div {position:relative;}
+.detailWrap .university tr.t2 td div div {position:static;}
+.detailWrap .university tr.t2 span.selectbox {margin-left:7px; *margin-left:10px;}
+.detailWrap .university tr.t2 span.sel1 {width:118px; margin-left:0;  margin-right:7px; *margin-right:10px;}
+.detailWrap .university tr.t2 span.sel2 {width:108px;}
+.detailWrap .university tr.t2 input.txt {width:198px;}
+.detailWrap .university tr.t2 span.button {left:477px;}
+.detailWrap .university tr.t2 .clone {padding-top:0; border-top:0 none;}
+.detailWrap .university tr.t3 span.selectbox {width:80px;}
+.detailWrap .university tr.t3 span.sel6 {width:90px;}
+.detailWrap .university tr.t4 input.txt {width:78px;}
+.detailWrap .university tr.t4 span.selectbox {width:90px;}
+.detailWrap .university tr.t5 input.txt {width:538px;}
+.detailWrap .university tr.degree span.selectbox {width:118px;}
+/* 상세이력서 - 경력사항 */
+.detailWrap .expsection .lb {margin-left:40px;}
+.detailWrap .expsection .lb1 {margin-left:0;}
+/* 신입 */
+.detailWrap .junior tr.t1 span.selectbox {width:270px; margin-right:7px}
+.detailWrap .junior tr.t2 span.selectbox {width:80px;}
+.detailWrap .junior tr.t2 span.mark {margin:0 7px 0 2px; margin:0 6px 0 2px\0; *margin:0 6px 0 2px;}
+.detailWrap .junior tr.t3 input.txt,
+.detailWrap .junior tr.t4 input.txt {width:418px;}
+.detailWrap .junior tr.t5 textarea.area {width:618px; height:134px;}
+.detailWrap .juniorinfo .other {padding:20px 21px; background-color:#f8f8f8;}
+.detailWrap .juniorinfo .other textarea.area {width:832px; height:134px;}
+/* 경력 - 입력방식 */
+.detailWrap .inptype tr.t1 label.lb {margin-left:26px;}
+/* 경력 - 상세경력+경력시술서 */
+.detailWrap .experience1 tr.t1 .box {margin:10px 172px 0 0; padding:20px 0 20px 40px; background-color:#f4faff; border:1px solid #bbb;}
+.detailWrap .experience1 tr.t1 input.txt {width:268px; margin-right:7px;}
+.detailWrap .experience1 tr.t1 label.lb {margin-left:26px;}
+.detailWrap .experience1 tr.t1 span.sel1 {width:130px; margin-right:7px;}
+.detailWrap .experience1 tr.t1 span.sel2 {width:80px;}
+.detailWrap .experience1 tr.t2 span.selectbox {width:80px;}
+.detailWrap .experience1 tr.t2 span.mark {margin:0 7px 0 2px; margin:0 6px 0 2px\0; *margin:0 6px 0 2px;}
+.detailWrap .experience1 tr.t2 label.lb {margin-left:5px;}
+.detailWrap .experience1 tr.t3 input.txt {width:166px; margin-right:7px;}
+.detailWrap .experience1 tr.t4 span.selectbox {width:168px; margin-right:7px; *margin-right:10px;}
+.detailWrap .experience1 tr.t5 span.selectbox {width:168px;}
+.detailWrap .experience1 tr.t6 input.txt {width:22px; text-align:center; text-indent:0;}
+.detailWrap .experience1 tr.t6 span.mark {margin:0; line-height:38px; line-height:40px\0;}
+.detailWrap .experience1 tr.t6 span.text {margin-right:20px;}
+.detailWrap .experience1 tr.t6 label.lb {margin-left:30px;}
+.detailWrap .experience1 tr.t7 textarea.area {width:618px; height:134px;}
+.detailWrap .experience1 tr.t7 textarea.bg {background-image:url(http://image.career.co.kr/career_new3/resume/bg_experience.gif);}
+.detailWrap .experience1 tr.t8 input.txt {width:268px;}
+.detailWrap .experience1 tr.type span.selectbox {width:168px;}
+.detailWrap .experience1 tr.last th,
+.detailWrap .experience1 tr.last td {border-bottom:1px solid #e5e5e5;}
+.detailWrap .exptotal {margin-top:60px; border-top:1px solid #e5e5e5; }
+/* 경력 - 경력시술서 (자유양식) */
+.detailWrap .experience2 tr.t1 textarea.area {width:618px; height:140px;}
+.detailWrap .experience2 tr.t2 span.selectbox {width:80px;}
+.detailWrap .experience2 tr.t2 span.sel1,
+.detailWrap .experience2 tr.t2 span.sel3 {margin-right:7px;}
+.detailWrap .experience2 tr.t2 button.txt {margin-left:1px;}
+/* 희망 근무조건 */
+.detailWrap .desire tr.t1 span.sel1 {width:140px; margin-right:7px;}
+.detailWrap .desire tr.t1 span.sel2 {width:189px;}
+.detailWrap .desire tr.t1 label.lb {margin-left:7px; *margin-left:10px;}
+.detailWrap .desire tr.t2 td {}
+.detailWrap .desire tr.t2 li {display:inline-block; zoom:1; *display:inline; width:145px; line-height:15px; vertical-align:middle;}
+.detailWrap .desire tr.t2 li.matching {width:auto;}
+.detailWrap .desire tr.t2 span.tooltip {vertical-align:0;}
+.detailWrap .desire tr.t3 span.selectbox {width:168px;}
+.detailWrap .desire tr.t3 span.sel1 {margin-right:7px;}
+.detailWrap .desire tr.t3 span.text {padding:0 6px 0 0;}
+.detailWrap .desire tr.workplace .grp {margin-top:20px;}
+.detailWrap .desire tr.workplace span.text {padding:0 6px 0 0;}
+.detailWrap .desire tr.workplace span.selectbox {width:168px;}
+.detailWrap .desire tr.workplace span.arrow {margin:0 9px 0 8px; *margin:0 9px 0 11px;}
+.detailWrap .desire tr.workplace button.btn {margin-left:4px;}
+.detailWrap .desire tr.type span.typebox {width:346px;}
+.detailWrap .desire tr.type button.txt {width:67px;}
+/* 입력사항 선택 */
+.detailWrap .optional {background-color:#f8f8f8; border-bottom:2px solid #595959;}
+.detailWrap .optional ul {zoom:1; padding:8px 0 11px 30px;}
+.detailWrap .optional ul:after {content:""; display:block; clear:both;}
+.detailWrap .optional li {float:left; width:170px; height:18px; padding:7px 0 8px;}
+.detailWrap .optional li img {margin-left:6px; vertical-align:-4px; *vertical-align:-2px;}
+.detailWrap .optional .s1 {color:#3b6bd1;}
+.detailWrap .optional .s2 {color:#333;}
+/* 자기소개서 */
+.detailWrap .introsection .lb {margin-left:25px;}
+.detailWrap .introsection .lb1 {margin-left:0;}
+.detailWrap .oneword {background-color:#f8f8f8; border-bottom:1px solid #e5e5e5;}
+.detailWrap .oneword dl {zoom:1; padding:20px 0 9px;}
+.detailWrap .oneword dl:after {content:""; display:block; clear:both;}
+.detailWrap .oneword dt {float:left; width:169px; height:26px; padding-left:62px; color:#333; line-height:26px}
+.detailWrap .oneword dd {float:left; width:680px;}
+.detailWrap .oneword input.txt {width:470px;}
+.detailWrap .oneword button.btn {margin-left:7px; *margin-left:10px;}
+.detailWrap .oneword p.desc {color:#888; line-height:33px;}
+/* 자기소개서 - 자유형 */
+.detailWrap #intinfo1 { border-bottom:2px solid #595959;}
+.detailWrap .introduce .editor {margin:0 auto;}
+.detailWrap .introduce .freestyle {padding-bottom:10px; text-align:center;}
+.detailWrap .introduce .freestyle textarea.area {width:830px; height:100px;}
+.detailWrap .introduce .total {zoom:1;}
+.detailWrap .introduce .total:after {content:""; display:block; clear:both;}
+.detailWrap .introduce .total p {padding:10px 0 20px; color:#333; text-align:center;}
+.detailWrap .introduce .total .s1 {margin-right:12px;}
+.detailWrap .introduce .total strong {color:#db2121;}
+.detailWrap .introduce .total .rt {float:right;}
+/* 자기소개서 - 주제형 */
+.detailWrap #intinfo2 {margin-top:-1px;}
+.detailWrap .intinfo2 {/*padding-bottom:20px;*/}
+.detailWrap .introduce2 {/*border-bottom:1px solid #e5e5e5;*/}
+.detailWrap .introduce2 tr th {padding:6px 0;}
+.detailWrap .introduce2 tr td div {position:relative;}
+.detailWrap .introduce2 tr td div div {position:static;}
+.detailWrap .introduce2 tr td ul {zoom:1;}
+.detailWrap .introduce2 tr td ul:after {content:""; display:block; clear:both;}
+.detailWrap .introduce2 tr td li {float:left; width:145px; height:15px; margin-bottom:10px;}
+.detailWrap .introduce2 tr td li label.lb {vertical-align:top;}
+.detailWrap .introduce2 tr.t1 td,
+.detailWrap .introduce2 tr.t2 td {padding:12px 0 2px;}
+.detailWrap .introduce2 tr.t3 th {padding:10px 0;}
+.detailWrap .introduce2 tr.t3 input.txt {width:278px;}
+.detailWrap .introduce2 tr.t3 td span.button {left:311px;}
+.detailWrap .directinput {display:none; padding-bottom:20px;}
+.detailWrap .directinput .group {width:872px; margin:30px auto 0;}
+.detailWrap .directinput .head {position:relative; height:30px; i }
+.detailWrap .directinput .head .txt {width:0; background-color:transparent; border-color:#f8f8f8; color:#333; font-weight:bold; text-indent:0; }
+.detailWrap .directinput .head .width {width:100%; background:#fff; font-size:16px;border:0; }
+.detailWrap .directinput .head .hidden {width:auto;}
+.detailWrap .directinput .head input.on {background-color:#fff; border-color:#ffc600;}
+.detailWrap .directinput .head button.modify {margin-left:7px;}
+.detailWrap .directinput .head button.up {position:absolute; top:11px; right:33px;}
+.detailWrap .directinput .head button.down {position:absolute; top:11px; right:10px;}
+.detailWrap .directinput .text {line-height:0;}
+.detailWrap .directinput .text textarea.area {width:850px; height:269px;}
+.detailWrap .directinput .button {zoom:1; margin-top:10px;}
+.detailWrap .directinput .button:after {content:""; display:block; clear:both;}
+.detailWrap .directinput .button .inn {float:right;}
+.detailWrap .directinput .button p,
+.detailWrap .directinput .button button.btn {float:left;}
+.detailWrap .directinput .button p {color:#333; line-height:26px;}
+.detailWrap .directinput .button p strong {color:#db2121;}
+.detailWrap .directinput .button span.s1 {margin-right:17px;}
+.detailWrap .directinput .button span.s2 {margin-right:10px;}
+/* 나의각오 */
+.detailWrap .resolve tr th div {padding-left:30px;}
+.detailWrap .resolve tr li {display:inline-block; zoom:1; *display:inline; width:145px; padding:8px 0; line-height:15px; vertical-align:middle;}
+.detailWrap .resolve tr.t1 td,
+.detailWrap .resolve tr.t2 td {padding:8px 0 11px;}
+.detailWrap .resolve tr.t3 td {background-color:#f8f8f8;}
+.detailWrap .resolve tr.t3 td div {padding:0 30px;}
+.detailWrap .resolve tr.t3 td div .textbox { padding-bottom:20px; }
+.detailWrap .resolve tr.t3 .stitle {padding:0; border:0 none; padding-top:15px; }
+.detailWrap .resolve tr.t3 p.desc {padding-top:5px;}
+.detailWrap .resolve tr.t3 textarea.area {width:830px; height:68px;}
+.detailWrap .resolve tr.t3 textarea.bg {background-image:url(http://image.career.co.kr/career_new3/resume/bg_resolve.gif);}
+/* 타인이 보는 나 */
+.detailWrap .others {background-color:#f8f8f8; border-bottom:2px solid #595959;}
+.detailWrap .others ul {zoom:1; padding:8px 0 11px 30px; border-bottom:1px solid #e5e5e5;}
+.detailWrap .others ul:after {content:""; display:block; clear:both;}
+.detailWrap .others li {float:left; width:170px; height:18px; padding:7px 0 8px;}
+.detailWrap .others textarea.area {width:830px; height:68px;}
+.detailWrap .others .text {padding:20px 30px;}
+.detailWrap .others .stitle {padding:0; border:0 none;}
+/* 자격증 */
+.detailWrap .license tr.t1 input.txt {width:228px;}
+.detailWrap .license tr.t2 .td1 {width:306px;}
+.detailWrap .license tr.t2 .td1 input.txt {width:228px;}
+.detailWrap .license tr.t2 .td2 span.selectbox {width:75px;}
+/* 어학능력 */
+.detailWrap .language tr .td1 {width:210px;}
+.detailWrap .language tr .td1 span.selectbox {width:160px;}
+.detailWrap .language tr .td2 span.selectbox {width:76px; margin-right:14px;}
+.detailWrap .language tr .td2 span.text {padding:0 8px 0 0;}
+/* 어학 공인시험 */
+.detailWrap .certificate tr .td1 {width:306px;}
+.detailWrap .certificate tr.t1 span.selectbox {width:167px;}
+.detailWrap .certificate tr.t2 input.txt {width:122px;}
+.detailWrap .certificate tr.t2 span.selectbox {width:75px;}
+.detailWrap .certificate tr.t2 span.sel3 {width:167px;}
+/* 해외연수 */
+.detailWrap .overseas tr .td1 {width:306px;}
+.detailWrap .overseas tr.t1 span.selectbox {width:160px;}
+.detailWrap .overseas tr.t1 input.txt {width:158px;}
+.detailWrap .overseas tr.t2 input.txt {width:278px;}
+.detailWrap .overseas tr.t3 span.selectbox {width:80px;}
+/* 교육이수 */
+.detailWrap .completion tr .td1 {width:306px;}
+.detailWrap .completion tr.t1 span.selectbox {width:160px;}
+.detailWrap .completion tr.t1 input.txt {width:158px;}
+.detailWrap .completion tr.t2 span.selectbox {width:80px;}
+/* 수상내역 */
+.detailWrap .award tr .td1 {width:306px;}
+.detailWrap .award tr.t1 span.selectbox {width:160px;}
+.detailWrap .award tr.t1 input.txt {width:158px;}
+.detailWrap .award tr.t2 span.selectbox {width:80px;}
+/* 봉사활동 */
+.detailWrap .volunteer tr .td1 {width:306px;}
+.detailWrap .volunteer tr.t1 span.selectbox {width:160px;}
+.detailWrap .volunteer tr.t1 input.txt {width:158px;}
+.detailWrap .volunteer tr.t2 span.selectbox {width:80px;}
+/* 컴퓨터 활용능력 */
+.detailWrap .ability tr span.text {padding:0 0 0 60px;}
+.detailWrap .ability tr span.txt1 {width:53px; margin:0;}
+.detailWrap .ability tr span.txt2,
+.detailWrap .ability tr span.txt3 {width:76px;}
+.detailWrap .ability tr span.selectbox {width:76px;}
+.detailWrap .ability tr .grp {margin-top:20px;}
+/* 보유기술 및 능력 */
+.detailWrap .skill tr.t1 .td1 {width:180px;}
+.detailWrap .skill tr.t1 .td1 span.selectbox {width:140px;}
+.detailWrap .skill tr.t1 .td2 {width:150px;}
+.detailWrap .skill tr.t1 .td2 input.txt {width:108px;}
+.detailWrap .skill tr.t1 .td3 span.selectbox {width:88px;}
+.detailWrap .skill tr.t2 input.txt {width:608px;}
+/* 취미 특기 */
+.detailWrap .interest tr .td1 {width:306px;}
+.detailWrap .interest tr input.txt {width:254px;}
+/* 이력서 공개정보 */
+.detailWrap .opensection {padding:0; background-color:transparent; border-bottom:2px solid #595959;}
+.detailWrap .opensection dt {padding:20px 0 20px 30px;}
+.detailWrap .opensection dd {width:732px; padding:18px 0 18px 20px;}
+.detailWrap .opensection dt {background-color:#f4faff;}
+.detailWrap .opensection .lb {float:left; margin-left:30px;}
+.detailWrap .opensection .lb1 {margin-left:0;}
+/* 상세이력서 - 작성완료 */
+.detailWrap .complete {padding-top:50px; text-align:center;}
+.detailWrap .complete p.button {margin-top:29px; font-size:32px;}
+.detailWrap .complete p.button a {display:inline-block;}
+.detailWrap .complete p.button img {vertical-align:middle;}
+.detailWrap .complete p.button button.txt {width:153px;height:50px;font-size:18px;font-weight:bold;}
+
+/* 상세이력서 - 등록 미리보기 */
+.resumeLayer .popupInner {width:772px;}
+.resumeLayer .resumeWrap {padding-bottom:30px;}
+.resumeLayer .popBox {width:740px; border:0; font-family:"NanumGothic"; color:#000; }
+.resumeLayer .popBox .resumeWrap { padding:40px; }
+.resumeLayer .popBox .resumeWrap h3 { height:92px; line-height:92px;  background:url(http://image.career.co.kr/career_new3/join/img_popup_icon.png) 32px 0 no-repeat; font-size:32px; letter-spacing:-3px; font-weight:normal; padding-left:96px; text-align:center; }
+.resumeLayer .popBox .resumeWrap .orange { color:#ff7300; }
+.resumeLayer .popBox .resumeWrap dl { width:620px; border:1px solid #d8d8d8; background:#f6f6f6; padding:30px 20px;}
+.resumeLayer .popBox .resumeWrap dl dt { font-size:22px; font-weight:normal; margin-bottom:20px; }
+.resumeLayer .popBox .resumeWrap dl dd { font-size:13px; color:#444444;  line-height:190%; letter-spacing:-0.5px; }
+.resumeLayer .popBox .resumeWrap dl dd a { background: url(http://image.career.co.kr/career_new3/join/img_popup_arr.gif) 100% 50% no-repeat; text-decoration:underline; padding-right: 10px; color:#0084ff; font-weight:bold; }
+.resumeLayer .popBox .resumeWrap button { border:0; font-family:"NanumGothic"; }
+.resumeLayer .popBox .resumeWrap .blueBtn { background:#0084ff; border:1px solid #0056a7; color:#fff; width:220px; height:50px; padding:0 30px 5px; margin:0 auto; display:block;  font-size:16px; font-weight:bold; margin-top:20px; }
+.resumeLayer .popBox .resumeWrap  p { text-align:center; font-size:18px; line-height:140%; letter-spacing:-1px; border-top:1px solid #e5e5e5; padding-top:20px; margin-top:20px; }
+.resumeLayer .popBox .resumeWrap .orangeBtn { background:#ff7800; border:1px solid #d66500; color:#fff; width:220px; height:50px; padding:0 30px 5px; margin:0 auto; display:block;  font-size:16px; font-weight:bold; margin-top:20px; }
+
+/* 상세이력서 - 상단메뉴 */
+.topbutton {zoom:1; width:692px; margin:0 auto; padding:20px 0 12px; border-bottom:2px solid #595959;}
+.topbutton:after {content:""; display:block; clear:both;}
+.topbutton dl {float:left;}
+.topbutton dl dt {position:relative; top:-6px;}
+.topbutton > div {float:right; padding-top:14px;}
+.viewWrap {width:692px; margin:0 auto;}
+.viewWrap .userinfo .text {zoom:1; padding:22px 0 11px;}
+.viewWrap .userinfo .text:after {content:""; display:block; clear:both;}
+.viewWrap .userinfo .text p {color:#2a2a2a;}
+.viewWrap .userinfo .text .total {float:left;}
+.viewWrap .userinfo .text .total img {margin-right:4px; vertical-align:-5px;}
+.viewWrap .userinfo .text .total strong {color:#db2121;}
+.viewWrap .userinfo .text .update {float:right;}
+.viewWrap .userinfo .title {padding-top:0; background-color:#64a5db; border:1px solid #40729b;}
+.viewWrap .userinfo .title h2 {color:#fff; text-align:center;}
+.viewWrap .userinfo .tbwrap {width:100%; border-left:1px solid #ddd;}
+.viewWrap .userinfo .tbwrap .tw1 {width:156px; /*width:157px;*/}
+.viewWrap .userinfo .tbwrap .tw1 .tb {border-width:0;}
+.viewWrap .userinfo .tbwrap .tw2 {border-left:1px solid #ddd; border-right:1px solid #ddd;}
+.viewWrap .userinfo .tb th {width:129px;}
+.viewWrap .userinfo .tb th div {padding-left:20px;}
+.viewWrap .userinfo .tb td div {zoom:1;}
+.viewWrap .userinfo .tb td div:after {content:""; display:block; clear:both;}
+.viewWrap .userinfo .tb td dl {zoom:1;}
+.viewWrap .userinfo .tb td dl:after {content:""; display:block; clear:both;}
+.viewWrap .userinfo .tb td dt,
+.viewWrap .userinfo .tb td dd {float:left;}
+.viewWrap .userinfo .tb td dt {width:62px;}
+.viewWrap .userinfo .tb td a {margin-left:4px;}
+.viewWrap .userinfo .tb td img {vertical-align:0;}
+.viewWrap .userinfo .tb td.photo {width:157px;}
+.viewWrap .userinfo .tb td.photo div {padding-left:0;}
+.viewWrap .userinfo .tb td .img_vm2 {position:static; vertical-align:-4px;}
+.viewWrap .userinfo .tb td .files .file {width:16px; height:16px; background-image:url(http://image.career.co.kr/career_new3/resume/icon_file2.gif); vertical-align:-5px;}
+.viewWrap .userinfo .tb tr.t3 .grp {line-height:20px;}
+.viewWrap .userinfo .tb tr.t3 .grp1 {float:left;}
+.viewWrap .userinfo .tb tr.t3 .grp2 {float:right; padding:0 30px 0 20px; border-left:1px solid #ddd; white-space:nowrap;}
+.viewWrap .userinfo .tb tr.t3 .clock {display:inline-block; zoom:1; *display:inline; height:15px; padding-left:20px; background:url(http://image.career.co.kr/career_new3/resume/icon_clock.gif) no-repeat 0 0; color:#2487f7; line-height:15px; *line-height:18px;}
+.viewWrap .userinfo .state .inner {zoom:1; width:auto !important; margin:0 !important; padding-top:0 !important; border:1px solid #e5e5e5; border-bottom:0 none;}
+.viewWrap .userinfo .state .inner:after {content:""; display:block; clear:both;}
+.viewWrap .userinfo .state dl {float:left; height:95px; margin-left:-1px; border-left:1px solid #e5e5e5;}
+.viewWrap .userinfo .state dt {height:14px; padding:15px 0 0 21px;}
+.viewWrap .userinfo .state dd {height:66px;}
+.viewWrap .userinfo .state dd p {width:140px; max-height:36px; height:auto !important; height:36px; overflow:hidden; margin:0 auto; word-break:keep-all;}
+.viewWrap .userinfo .state dd table.tb {width:100%; height:100%; border:0 none;}
+.viewWrap .userinfo .state dd table.tb td {padding:0; border:0 none; line-height:18px; text-align:center;}
+.viewWrap .userinfo .state dl.d3 table.tb td {line-height:22px;}
+.viewWrap .userinfo .state dl.d1 {width:157px; *width:156px; margin-left:0; border-left:0 none;}
+.viewWrap .userinfo .state dl.d2 {width:25.5%; /*width:177px;*/}
+.viewWrap .userinfo .state dl.d3 {width:25.5%; /*width:176px;*/}
+.viewWrap .userinfo .state dl.d4 {float:right; width:25.5%; /*width:177px;*/ margin-left:-5%;}
+.viewWrap .userinfo .appfield {padding-bottom:19px; border-bottom:1px solid #ddd;}
+.viewWrap .userinfo .appfield p {padding:15px 10px; border:1px solid #ddd; border-top-width:0; text-align:center;}
+.viewWrap .userinfo .appfield strong {color:#2487f7;}
+/* 안내문 */
+.viewWrap .servinfo .inn {padding:25px 10px 20px; background-color:#fffde4; border:solid #ffc600; border-width:0 1px 1px 1px; text-align:center;}
+.viewWrap .servinfo p {color:#505050;}
+.viewWrap .servinfo .btn {margin:-6px 0 3px 9px; font-size:0; vertical-align:4px;}
+.viewWrap .servinfo img {vertical-align:middle;}
+.viewWrap .servinfo strong.s1 {color:#ff5a00;}
+.viewWrap .servinfo strong.s2 {color:#0d6ebc;}
+.viewWrap .servinfo span {margin-left:11px; white-space:nowrap;}
+.viewWrap .servinfo span.s1 {margin-left:0;}
+.viewWrap .servinfo span strong {color:#ff5a00;}
+.viewWrap .servinfo .p2 {margin-top:4px; line-height:21px;}
+/* 안내문 - 프로필이력서 */
+.profileinfo {background-color:#fafafa; border:1px solid #ddd;}
+.profileinfo .text {height:144px; padding-left:207px; background:url(http://image.career.co.kr/career_new3/resume/bg_profileinfo.gif) no-repeat 0 0;}
+.profileinfo .p1 {padding-top:25px;}
+.profileinfo .p2 {padding-top:13px;}
+/* 공통 */
+.viewWrap .title {padding-top:30px;}
+.viewWrap .title .tit span {height:19px; margin-left:14px; padding:0 0 0 14px; border-left:1px solid #ddd; color:#333; line-height:19px;}
+.viewWrap .title .tit em,
+.viewWrap .title .tit strong {color:#db2121;}
+.viewWrap .tb th div {padding-left:32px;}
+.viewWrap .tb th,
+.viewWrap .tb td {padding:9px 0 8px; line-height:20px;}
+.viewWrap .tb td pre {line-height:20px;}
+.viewWrap .tb td em.gt {display:inline-block; zoom:1; *display:inline; width:6px; height:16px; overflow:hidden; margin:0 2px 0 5px; background:url(http://image.career.co.kr/career_new3/resume/icon_arrow_gt.gif) no-repeat 0 0; text-indent:-999em; vertical-align:-4px; *vertical-align:1px;}
+.viewWrap .tb td em.bar {margin:0 5px 0 3px; color:#ddd; font-family:"NanumGothic";}
+.viewWrap .tb td img {vertical-align:-3px;}
+.viewWrap .tb2 th,
+.viewWrap .tb2 td {width:auto; border-left:1px solid #ddd; text-align:center;}
+.viewWrap .tb2 th {border-top:0 none;}
+.viewWrap .tb2 td div {padding:0 6px; word-break:break-all; *word-break:keep-all; word-wrap:break-word;}
+.viewWrap .tb2 th.t1 {border-left:0 none;}
+.viewWrap .tb2 td.t1 {border-left:0 none;}
+.viewWrap .tb2 td.t1 div {word-wrap:normal;}
+/* 근무 각오 */
+.viewWrap .resolve .tb tr th {width:158px;}
+.viewWrap .resolve .tb td {padding:12px 0 11px;}
+.viewWrap .resolve .tb td img {vertical-align:top;}
+.viewWrap .resolve .grp {margin-right:19px;}
+.viewWrap .resolve .grp1 {margin-bottom:-4px; *margin-bottom:-1px; font-size:20px; line-height:27px;}
+.viewWrap .resolve .grp2 {margin-top:11px; padding-top:5px; background:url(http://image.career.co.kr/career_new3/resume/bg_dot.gif) repeat-x 0 0; line-height:26px;}
+/* 희망 근무조건 */
+.viewWrap .desire .tb tr th {width:158px;}
+.viewWrap .desire td img {margin-right:4px; vertical-align:-4px;}
+.viewWrap .desire td span.s1 {margin-right:26px;}
+/* 개인 추가정보 */
+.viewWrap .moreinfo .tb tr th {width:158px;}
+/* 학력사항 */
+.viewWrap .education th.t1 {width:182px;}
+.viewWrap .education th.t2 {width:121px;}
+.viewWrap .education th.t3 {width:72px;}
+.viewWrap .education th.t4 {width:auto;}
+.viewWrap .education th.t5 {width:72px;}
+.viewWrap .education td.t4 div {padding-left:17px; text-align:left;}
+/* 경력기술서 */
+/*.viewWrap .experience .tb th.t1,*/
+.viewWrap .experience .tb .t1 {width:114px;}
+.viewWrap .experience .tb .t2 {width:130px;}
+.viewWrap .experience .tb .t3 {width:140px;}
+.viewWrap .experience .tb .t4 {width:auto; /*172px;*/}
+.viewWrap .experience .tb .t5 {width:95px;}
+.viewWrap .experience .tb .t6 {width:68px;}
+.viewWrap .experience .tb td.t1 div {padding:0 15px 0 20px; text-align:left;}
+.viewWrap .experience .tb td.t1 div p {color:#3b6bd1;}
+.viewWrap .experience .tb td.text {padding:0;}
+.viewWrap .experience .tb td.text div {padding:14px 20px; text-align:left;}
+.viewWrap .experience .tb td.text p {zoom:1;}
+.viewWrap .experience .tb td.text p img {margin-right:6px; vertical-align:-4px;}
+.viewWrap .experience .tb td.text p.txt {padding-top:4px;}
+.viewWrap .experience .tb td.text p.p2 {padding-top:20px;}
+/* 타임라인 */
+.viewWrap .timelineWrap div.title {display:none; border-top:2px solid #595959;}
+.viewWrap .timelineBtn {padding:12px 0; background-color:#f8f8f8; border-top:1px solid #ddd; color:#888; text-align:center;}
+.viewWrap .timelineBtn span {vertical-align:middle;}
+.viewWrap .timelineBtn button.btn {margin-left:7px;}
+.viewWrap .timelineArea {display:none; position:relative; background-color:#f8f8f8; border-top:1px solid #ddd;}
+.viewWrap .timelineArea button.close {position:absolute; top:14px; right:14px;}
+.viewWrap .timeline {width:650px; margin-left:21px; padding:20px 0 30px;}
+.viewWrap .timeline div.birth {width:87px; margin:0 auto;}
+.viewWrap .timeline div.birth p {height:21px; overflow:hidden; padding-left:40px; background:url(http://image.career.co.kr/career_new3/resume/bg_timeline_first.gif) no-repeat 0 0; font:normal 14px/21px 'NanumGothic';}
+.viewWrap .timeline div.birth span {color:#fff;}
+.viewWrap .timeline ul.list {zoom:1; padding-top:24px; background:url(http://image.career.co.kr/career_new3/resume/bg_timeline_line.gif) repeat-y 323px 0;}
+.viewWrap .timeline ul.list:after {content:""; display:block; clear:both;}
+.viewWrap .timeline li {position:relative; width:287px; margin-top:10px;}
+.viewWrap .timeline li.lst1 {margin-top:0;}
+.viewWrap .timeline li.lst2 {margin-top:62px;}
+.viewWrap .timeline li .arrow {position:absolute; top:6px; width:15px; height:21px; overflow:hidden; background:no-repeat 0 0;}
+.viewWrap .timeline li .dot,
+.viewWrap .timeline li .year {position:absolute; top:6px; width:48px; height:21px; overflow:hidden; background:none no-repeat 0 0; color:#fff; font:normal 14px/21px 'NanumGothic'; text-align:center;}
+.viewWrap .timeline li .dot {background-image:url(http://image.career.co.kr/career_new3/resume/bg_timeline_dot.gif); text-indent:-999em;}
+.viewWrap .timeline li .year {background-image:url(http://image.career.co.kr/career_new3/resume/bg_timeline_year.gif);}
+.viewWrap .timeline li .box {background:url(http://image.career.co.kr/career_new3/resume/bg_timeline_md.gif) repeat-y 0 0;}
+.viewWrap .timeline li .inn {padding-top:6px; background:url(http://image.career.co.kr/career_new3/resume/bg_timeline_tp.gif) no-repeat 0 0;}
+.viewWrap .timeline li .inn p {padding:0 22px; line-height:20px;}
+.viewWrap .timeline li .inn div {height:30px; padding-bottom:1px; background:no-repeat 0 100%; border-top:1px solid #ddd; line-height:30px; text-align:center;}
+.viewWrap .timeline li p.p1 {padding-top:5px;}
+.viewWrap .timeline li p.p2 {padding-bottom:10px;}
+.viewWrap .timeline li div.p3 {background-color:#f4faff; background-image:url(http://image.career.co.kr/career_new3/resume/bg_timeline_bt.gif); color:#333;}
+.viewWrap .timeline li div.work {background-color:#fffde4; background-image:url(http://image.career.co.kr/career_new3/resume/bg_timeline_bt2.gif); color:#fd7c1d;}
+.viewWrap .timeline li.left {float:left;}
+.viewWrap .timeline li.left .dot,
+.viewWrap .timeline li.left .year {right:-62px;}
+.viewWrap .timeline li.left .arrow {right:-14px; background-image:url(http://image.career.co.kr/career_new3/resume/bg_timeline_arr_lt.gif);}
+.viewWrap .timeline li.right {float:right;}
+.viewWrap .timeline li.right .dot,
+.viewWrap .timeline li.right .year {left:-62px;}
+.viewWrap .timeline li.right .arrow {left:-14px; background-image:url(http://image.career.co.kr/career_new3/resume/bg_timeline_arr_rt.gif);}
+/* 주요활동사항 */
+.viewWrap .activity.table {border-bottom:0 none;}
+.viewWrap .activity table.tb {border-bottom:1px solid #595959;}
+.viewWrap .activity table.repeat {margin-top:20px;}
+.viewWrap .activity table.repeat tr.first th,
+.viewWrap .activity table.repeat tr.first td {border-top:1px solid #e5e5e5;}
+.viewWrap .activity table.bottom {margin-top:20px; border-bottom:2px solid #595959;}
+.viewWrap .activity th {width:158px;}
+.viewWrap .activity td {width:534px;}
+.viewWrap .activity h3 {font-size:12px; font-weight:bold;}
+.viewWrap .activity tr.t2 td strong {color:#3b6bd1; font-weight:normal;}
+.viewWrap .activity tr.t6 td {width:auto; padding-bottom:20px; background-color:#f8f8f8;}
+.viewWrap .activity tr.t6 td div {padding:0 32px;}
+.viewWrap .activity tr.t6 td div div {width:auto; padding-left:0;}
+.viewWrap .activity tr.t6 td h3 {margin:3px 0 8px;}
+.viewWrap .activity tr.t6 .box {padding:20px; background-color:#fff; border:1px solid #bbbbbb; line-height:23px;}
+/* 경력기술서 - 자유형 */
+.viewWrap .experience .expfree {margin-top:-2px; padding:20px; background-color:#fff; border:1px solid #bbb;}
+.viewWrap .experience .expfree pre,
+.viewWrap .experience .expfree > div:first-child {line-height:23px;
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+	*white-space: pre; /* Internet Explorer 5.5+ */
+}
+/* 자격증 */
+.viewWrap .license th.t1 {width:180px;}
+.viewWrap .license th.t2 {width:auto;}
+.viewWrap .license th.t3 {width:215px;}
+/* 어학능력 */
+.viewWrap .language tr em {padding:0 16px; font-family:"NanumGothic";}
+.viewWrap .language td.t1 {width:auto;}
+.viewWrap .language td.t2 {width:170px;}
+.viewWrap .language td.t3 {width:170px;}
+.viewWrap .language td.t4 {width:180px;}
+/* 어학공인시험 */
+.viewWrap .certificate th.t1 {width:auto;}
+.viewWrap .certificate th.t2 {width:180px;}
+.viewWrap .certificate th.t3 {width:148px;}
+.viewWrap .certificate th.t4 {width:181px;}
+/* 해외연수 */
+.viewWrap .overseas th.t1 {width:auto;}
+.viewWrap .overseas th.t2 {width:167px;}
+.viewWrap .overseas th.t3 {width:170px;}
+.viewWrap .overseas th.t4 {width:202px;}
+/* 교육이수 */
+.viewWrap .completion th.t1 {width:197px;}
+.viewWrap .completion th.t2 {width:auto;}
+.viewWrap .completion th.t3 {width:261px;}
+/* 수상내역 */
+.viewWrap .award th.t1 {width:197px;}
+.viewWrap .award th.t2 {width:auto;}
+.viewWrap .award th.t3 {width:261px;}
+/* 봉사활동 */
+.viewWrap .volunteer th.t1 {width:197px;}
+.viewWrap .volunteer th.t2 {width:auto;}
+.viewWrap .volunteer th.t3 {width:261px;}
+/* 컴퓨터 활용능력 */
+.viewWrap .ability th {width:151px; text-align:center; vertical-align:middle;}
+.viewWrap .ability td {width:540px; border-left:1px solid #ddd;}
+.viewWrap .ability td div {padding-left:30px;}
+.viewWrap .ability td img {margin-left:7px;}
+.viewWrap .ability ul {zoom:1; margin-top:-10px;}
+.viewWrap .ability ul:after {content:""; display:block; clear:both;}
+.viewWrap .ability li {float:left; margin:10px 0 0 20px; padding-left:21px; background:url(http://image.career.co.kr/career_new3/resume/bar_ability.gif) no-repeat 0 0; line-height:16px;}
+.viewWrap .ability li.first {margin-left:0; padding-left:0; background-image:none;}
+.viewWrap .ability p {font-family:"NanumGothic";}
+/* 보유기술 및 능력 */
+.viewWrap .skill th.t1 {width:143px;}
+.viewWrap .skill th.t2 {width:185px;}
+.viewWrap .skill th.t3 {width:64px;}
+.viewWrap .skill th.t4 {width:auto;}
+/* 자기소개서 */
+.viewWrap .introduce {margin-bottom:-30px;}
+.viewWrap .introduce .tit {height:auto;/*40px*/ margin-bottom:22px; background-color:#f8f8f8; border-bottom:1px solid #ddd;}
+.viewWrap .introduce .tit h3 {padding:10px; font-size:12px; font-weight:bold; line-height:20px;/*40px*/ text-align:center;}
+.viewWrap .introduce .box {margin:-2px 0 30px; background-color:#fff; border:1px solid #ddd;}
+.viewWrap .introduce .head {height:40px; background-color:#f8f8f8; border-bottom:1px solid #ddd;}
+.viewWrap .introduce .head p {padding-left:20px; font-weight:bold; line-height:40px;}
+.viewWrap .introduce .body {padding:20px; line-height:23px; word-break:break-all;}
+.viewWrap .introduce .editor {padding:20px 20px; line-height:23px;}
+.viewWrap .introduce .photo,
+.viewWrap .introduce .attach {text-align:center;}
+/* 열람서비스 신청 */
+.viewWrap .reqinfo {padding:40px 0 37px; background-color:#f8f8f8; border-bottom:2px solid #595959;}
+.viewWrap .reqinfo .inn {text-align:center;}
+.viewWrap .reqinfo strong {color:#333;}
+.viewWrap .reqinfo em {color:#db2121; font-size:20px;}
+.viewWrap .reqinfo .p1 {font-size:21px;}
+.viewWrap .reqinfo .p2 {margin-top:10px; color:#888; line-height:18px;}
+.viewWrap .reqinfo .btn {margin-top:19px; font-size:13px;}
+/* 사실확인 */
+.viewWrap .confirm {padding-top:30px; text-align:center;}
+.viewWrap .confirm p.p2 {padding-top:15px;}
+
+/* 이력서 인쇄 */
+@media print {
+	.break {display:block; height:0; border:0 none; font-size:0; page-break-before:always;}/* 페이지 새로시작 */
+	.timelineWrap {page-break-before:always; page-break-after:always;}
+	.experience .timelineWrap {page-break-before:auto; page-break-after:auto;}/* 상세이력서 보기 */
+	.viewWrap .title,
+	.viewWrap .activity table.tb,
+	img {/* 중간 잘림현상 방지 */
+		page-break-before: auto;
+		page-break-after: auto;
+		page-break-inside: avoid;
+	}
+	img { max-width:100%; width:auto;}
+	#header .inner, #contents .inner, #step .inner, .topbutton, #footer .inner {width:auto !important;}
+	#pop_view_area,
+	.popView,
+	.viewInner {width:auto !important;}
+	.viewWrap .timeline {margin:0 auto;}
+	#header,
+	#footer,
+	.topbutton,
+	.viewWrap .timelineBtn,
+	.viewWrap .timelineArea button.close,
+	.pageDiv {display:none;}/* 인쇄팝업 상단 */
+	.viewInner {position:relative;}
+	.viewWrap .userinfo .state DL.d1 {width:157px;}/* 상단 지원분야 출력 fix */
+	.timelineWrap div.title,
+	.timelineArea {display:block !important;}
+}
+
+/* 커리어 가이드 */
+.careerGuide {margin-top:30px;}
+.careerGuide .guideTab .tab {zoom:1;}
+.careerGuide .guideTab .tab:after {content:""; display:block; clear:both;}
+.careerGuide .guideTab .tab a {float:left;}
+.careerGuide .guideTab .lst {zoom:1; padding:4px 0 20px 30px; border:1px solid #dcdcdc; border-top-width:0;}
+.careerGuide .guideTab .lst:after {content:""; display:block; clear:both;}
+.careerGuide .guideTab .lst li {float:left; height:13px; margin-top:16px; padding-left:20px; background:none no-repeat 0 0; line-height:14px; *line-height:15px;}
+.careerGuide .guideTab .lst li a {color:#323232;}
+.careerGuide .guideTab .lst .n1 {background-image:url(http://image.career.co.kr/career_new3/resume/guide/img_num1.gif);}
+.careerGuide .guideTab .lst .n2 {background-image:url(http://image.career.co.kr/career_new3/resume/guide/img_num2.gif);}
+.careerGuide .guideTab .lst .n3 {background-image:url(http://image.career.co.kr/career_new3/resume/guide/img_num3.gif);}
+.careerGuide .guideTab .lst .n4 {background-image:url(http://image.career.co.kr/career_new3/resume/guide/img_num4.gif);}
+.careerGuide .guideTab .lst .n5 {background-image:url(http://image.career.co.kr/career_new3/resume/guide/img_num5.gif);}
+.careerGuide .guideTab .lst .n6 {background-image:url(http://image.career.co.kr/career_new3/resume/guide/img_num6.gif);}
+.careerGuide .guideTab .lst .n7 {background-image:url(http://image.career.co.kr/career_new3/resume/guide/img_num7.gif);}
+.careerGuide .guideTab .lst .n8 {background-image:url(http://image.career.co.kr/career_new3/resume/guide/img_num8.gif);}
+.careerGuide .guideTab .lst .n9 {background-image:url(http://image.career.co.kr/career_new3/resume/guide/img_num9.gif);}
+
+.careerGuide .guideTab .lst1 .n1 {width:193px;}
+.careerGuide .guideTab .lst1 .n2 {width:148px;}
+.careerGuide .guideTab .lst1 .n3 {width:159px;}
+.careerGuide .guideTab .lst1 .n4 {width:170px;}
+.careerGuide .guideTab .lst1 .n5 {width:193px;}
+.careerGuide .guideTab .lst1 .n6 {width:148px;}
+.careerGuide .guideTab .lst1 .n7 {width:159px;}
+.careerGuide .guideTab .lst1 .n8 {width:170px;}
+
+.careerGuide .guideTab .lst2 {padding:2px 0 20px 17px;}
+.careerGuide .guideTab .lst2 li {margin-top:18px;}
+.careerGuide .guideTab .lst2 .n1 {width:136px;}
+.careerGuide .guideTab .lst2 .n2 {width:131px;}
+.careerGuide .guideTab .lst2 .n3 {width:165px;}
+.careerGuide .guideTab .lst2 .n4 {width:143px;}
+.careerGuide .guideTab .lst2 .n5 {width:95px;}
+.careerGuide .guideTab .lst2 .n6 {width:136px;}
+.careerGuide .guideTab .lst2 .n7 {width:131px;}
+.careerGuide .guideTab .lst2 .n8 {width:165px;}
+.careerGuide .guideTab .lst2 .n9 {width:143px;}
+.careerGuide .guideCont p {margin-top:30px;}
+
+/* //CSS */

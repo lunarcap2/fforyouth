@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_next_24px" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:#d3d3d3}
+        </style>
+    </defs>
+    <g id="그룹_2752" transform="translate(-1536 -955)">
+        <path id="사각형_517" fill="none" d="M0 0H24V24H0z" transform="translate(1536 955)"/>
+        <g id="그룹_959" transform="translate(1538 957)">
+            <g id="next" transform="translate(9.47)">
+                <path id="Chevron_Right_1_" d="M65.138 9.55L55.888.3a1.039 1.039 0 0 0-1.47 1.467l8.516 8.513-8.516 8.52a1.039 1.039 0 0 0 1.47 1.468l9.25-9.247a1.048 1.048 0 0 0 0-1.471z" class="cls-2" transform="translate(-54.113)"/>
+            </g>
+            <rect id="사각형_156" width="18.94" height="2.368" class="cls-2" rx="1" transform="translate(0 9.1)"/>
+        </g>
+    </g>
+</svg>

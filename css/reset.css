@@ -1,0 +1,26 @@
+@charset "euc-kr";
+
+/* RESET */
+body {font-family :'Nanum Gothic','³ª´®°íµñ'; font-size:12px; line-height:1.23em; letter-spacing:-1px;}
+body, div, p, pre, dl, dt, dd, input, form, fieldset, legend, h1, h2, h3, h4, h5, h6, ul, ol, li {margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6 {font-size:12px;}
+ul, ol, li {list-style:none;letter-spacing:-1px;}
+a {color:#494949; text-decoration:none;}
+a:hover {text-decoration:none;}
+dt {font-weight:bold;}
+em {font-style:normal;}
+img, fieldset, iframe {border:0;}
+hr {display:none;}
+input,select,button,textarea {font-family: 'Nanum Gothic','³ª´®°íµñ'; letter-spacing:-1px;}
+table{padding:0;margin:0;border-spacing:0;border:0;table-layout: fixed;}
+caption, legend, .blind{position:absolute;top:-9999em;height:0;overflow:hidden;visibility:hidden;}
+
+/* Á¢±Ù¼º */
+#skipnavi a,
+#skipnavi a:link {z-index:-1; position:absolute; top:-9999em;}
+#skipnavi a:active,
+#skipnavi a:hover,
+#skipnavi a:focus {z-index:9999; top:auto; padding:0 1em; background-color:#fff; line-height:2em;}
+caption, legend, .blind {position:absolute; top:-9999em; height:0; overflow:hidden; visibility:hidden;}
+
+/* //CSS */

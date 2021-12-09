@@ -1,0 +1,223 @@
+@charset "euc-kr";
+
+
+/* ?? */
+button {width:auto; overflow:visible; background-color:transparent; cursor:pointer; white-space:nowrap; *vertical-align:middle; outline:none; border:none;}
+button.btn,
+a.btn {display:inline-block;font-weight:bold; vertical-align:middle; color:#fff;}
+a.btn span {display:table-cell; vertical-align:middle;}
+a.btn span span {display:inline;color:#fdff46;}
+button {overflow:hidden; padding:0; color:#fff; box-sizing:border-box;}
+a.btn {overflow:hidden; padding:0 24px; color:#fff; box-sizing:border-box;}
+.btn.typeNavy {background-color:#093e93; border:1px solid #042e71;}
+.btn.typeWhite {background-color:#fff; border:1px solid #dbdbdb; color:#333;}
+.btn.typeWhite2{background-color:#f8f9fb;border:1px solid #e5e5e5;color:#333;}
+.btn.typeSky {background-color:#68abff; border:1px solid #348eff;}
+.btn.typeSky2 {background-color:#36baff; border:1px solid #00b4ff;}
+.btn.typeBlue {background-color:#3180dc; border:1px solid #2367b7;}
+.btn.typeBlu2{background-color:#00c0ff;border:1px solid #00b8f5;}
+.btn.typeBlu3{background-color:#0084ff;border:1px solid #0056a7;}
+.btn.typeOrange{background-color:#ff5b00;border:1px solid #ff5b00;}
+.btn.typeBrown {background-color:#f37527; border:1px solid #c94d01;}
+.btn.typeGray {background-color:#b5b5b5; border:1px solid #9b9b9b;}
+.btn.typeRed{background-color:#f00;border:1px solid #da0000;}
+.btn.typeGray{background-color:#b5b5b5;border:1px solid #9b9b9b;}
+.btn.typeDgray{background-color:#5d5d5d;border:1px solid #484848;}
+.btn.typeBlack{background-color:#323232;border:1px solid #1e1e1e;}
+.btn.typeGreen{background-color:#38c238;border:1px solid #37ac37;}
+.btn.typeGreen2{background-color:#00c624;border:1px solid #00c624;}
+.btn.typeGreen3{background-color:#3ecc07;border:1px solid #1fa703;}
+
+.btnr {display:inline-block;padding:16px 30px;border-radius:25px;font-size:17px;line-height:1em;text-align:center;}
+.btnr.blue {background:#1491fb;color:#fff;}
+
+.btnWrap {position:relative; zoom:1; overflow:hidden; width:100%; padding-top:30px; text-align:center;}
+.btnWrap.brd {padding-top:20px; margin-top:30px; border-top:1px solid #c3c3c3;}
+.btnWrap .lt {float:left;}
+.btnWrap .rt {float:right;}
+.btnWrap .btn {display:inline-block; *display:inline; min-width:170px; height:50px;margin-left:5px; font-size:16px; line-height:48px; vertical-align:top;}
+.btnWrap .btn:first-child {margin-left:0;}
+
+
+.btn.heart span {padding-left:24px; background:url(http://image.career.co.kr/career_new4/kangso/calendar/icon_mid_heart_off.png) no-repeat 0 50%;}
+.btn.scrap span {padding:0 0 0 23px; background:url(http://image.career.co.kr/career_new4/kangso/calendar/icon_mid_scrap_off.png) no-repeat 0 50%;}
+.btn.heart.on span {background-image:url(http://image.career.co.kr/career_new4/kangso/calendar/icon_mid_heart_on.png);}
+.btn.scrap.on span {background-image:url(http://image.career.co.kr/career_new4/kangso/calendar/icon_mid_scrap_on.png);}
+.btn.prev,
+.btn.next {padding:0 18px; margin-right:5px;}
+.btn.prev span,
+.btn.next span {display:inline; font-size:16px; color:#666; vertical-align:baseline;}
+.btn.prev span {padding-left:14px; background:url(http://image.career.co.kr/career_new4/reference/btn_arr_blackw_4px.png) no-repeat 0 8px;}
+.btn.next span {padding-right:14px; background:url(http://image.career.co.kr/career_new4/reference/btn_arr_blackw_4px.png) no-repeat 100% -9px;}
+
+/* round */
+.round{display:inline-block;padding:5px 11px 7px;font-size:12px;background:#fff;border:1px solid #bdbdbd;border-radius:3em;color:#6b6b6b;letter-spacing:-0.075em;line-height:1;}
+.round span{color:#333;vertical-align:inherit;}
+.round + span{margin-left:8px;}
+.round.typeSky{color:#3181db;border:1px solid #91bcec;}
+.round.typeGreen{color:#0ec920;border:1px solid #0ec920;}
+.round.typeTeal {padding: 5px 11px 7px 30px;vertical-align:top;color:#fff;border:1px solid #116d75;background:#329da6 url(http://image.career.co.kr/career_new4/my/teal_bg.png) no-repeat 14px 50%;}
+.round.typeIndigo {padding: 5px 11px 7px 30px;vertical-align:top;color:#fff;border:1px solid #103654;background:#29506f url(http://image.career.co.kr/career_new4/my/indigo_bg.png) no-repeat 14px 50%;}
+
+/* NO DATA */
+.nonData {height:300px; font-size:16px; color:#666; line-height:300px; text-align:center;}
+
+/* LAYOUT */
+.taL {text-align:left !important;}
+.taC {text-align:center !important;}
+.taR {text-align:right !important;}
+
+/*?????*/
+#myTest .content .titArea {padding: 60px 0 15px;}
+#myTest .content .titArea h4 {display:inline-block;line-height:1;margin-right:15px;font-size:22px;font-weight:normal;color:#000;}
+
+#myTest {display:block;}
+#myTest #career_contents{float:none;width:960px;min-height:600px;position:relative;padding:40px 50px 50px;margin:0 auto;border:1px solid #e5e5e5;background:#fff;box-sizing: border-box;}
+
+#myTest .catMngWrap .titArea {padding: 60px 0 15px;}
+#myTest .tabArea {display:block;margin-top:50px;}
+#myTest .tabArea .tabs {display:block;}
+#myTest .tabArea .tabs:after{content:"";display:block;clear:both;}
+#myTest .tabArea .tabs li {width:152px;padding:17px 0 20px;float:left;line-height:1;margin:0 0 -1px -1px;background:#f0f0f0;border:1px solid #c7c7c7;border-bottom:none;font-size:17px;color:#b9b9b9;text-align:center;cursor: pointer;}
+#myTest .tabArea .tabs li.on {position:relative;border:1px solid #0078ff;border-bottom:none;background:#fff;z-index:10;color:#000;font-weight:bold;}
+#myTest .tabArea .guideArea {display:block;position:relative;border:1px solid #0078ff;margin-left:-1px;padding:30px;}
+#myTest .tabArea #tab1 .guideArea {background:url(http://image.career.co.kr/career_new4/common/person_test_bg.png) no-repeat 96% 66%;}
+#myTest .tabArea #tab2 .guideArea {background:url(http://image.career.co.kr/career_new4/common/aptitude_test.png) no-repeat 96% 66%;}
+#myTest .tabArea .guideArea .tit {display:block;}
+#myTest .tabArea .guideArea .tit p {color:#0078ff;font-size:22px;}
+#myTest .tabArea .guideArea .tit span {display:block;color:#666;font-size:14px;line-height:1.5;padding:10px 0 20px;}
+
+#myTest .testItemBox .tibTit {display:block;font-size:18px;line-height:1;padding:35px 0 15px;}
+#myTest .testItemBox ul li.useCount {padding-left:30px;margin-left:45px;border-left:1px solid #e5e5e5;text-align:left;}
+#myTest .testItemBox ul li.useCount .round{color:#fff;background:#323232;border:1px solid #323232;}
+#myTest .testItemBox ul li.useCount .value{margin-top:12px;}
+#myTest .testItemBox ul li.useCount .value.ver2 {margin-top:10px;}
+#myTest .testItemBox ul li.useCount .value .num{font-size:24px;color:#ff5b00;}
+#myTest .testItemBox ul li.useCount .value .check {color:#0084ff;text-decoration:underline;padding:0 12px 0 0;background: url(http://image.career.co.kr/career_new4/common/count_point.png) no-repeat 100% 70%;font-weight:bold;}.
+#myTest .testItemBox ul li:first-child.useCount{padding-left:0;margin-left:0;border-left:none;}
+#myTest .testItemBox ul li .value .num.fee {font-size:24px;color:#ff5b00;line-height: 0.8;}
+#myTest .testItemBox ul li .value .num.count {font-size:24px;color:#0084ff;text-decoration: underline;}
+
+/* progressArea */
+#myTest .progressArea{position:relative;overflow:hidden;border:solid #e5e5e5;border-width:1px 0;}
+#myTest .progressArea ul{padding:15px;background-color:#f8f9fb;}
+#myTest .progressArea ul li{margin-top:5px;font-size:13px;color:#666;line-height:1.5;}
+#myTest .progressArea ul li:after{content:"";display:block;clear:both;}
+#myTest .progressArea ul li:first-child{margin-top:0;}
+#myTest .progressArea ul li .fc_ora {font-weight:bold;}
+#myTest .proMent {display:block;font-size:13px;padding:20px 0 0 10px;color:#666;}
+
+/* notiArea */
+#myTest .notiArea{position:relative;padding-top:15px;}
+#myTest .notiArea dd,
+#myTest .notiArea li,
+#myTest .notiArea li em{font-size:13px;line-height:26px;}
+#myTest .notiArea dl dd,
+#myTest .notiArea ul li{margin-left:13px;line-height:22px;text-indent:-13px;}
+#myTest .notiArea ul li span{font-weight:bold;}
+#myTest .notiArea dl dd{color:#666;}
+#myTest .notiArea ul li{color:#464646;}
+#myTest .notiArea ul li strong {color:#0078ff;}
+#myTest .notiArea ol li{line-height:26px;color:#666;}
+#myTest .notiArea dt{padding-bottom:10px;font-size:17px;font-weight:bold;color:#000;}
+#myTest .notiArea.addBtn ul{float:left;margin-right:25px;}
+#myTest .notiArea.addBtn:after{content:"";display:block;clear:both;}
+#myTest .notiArea .btn.typeBlack{padding:10px 17px;margin-top:3px;font-size:13px;}
+#myTest .notiArea .btn.freeCoupon span:before{content:"";display:inline-block;clear:both;width:32px;height:18px;margin-right:12px;background:url(http://image.career.co.kr/career_new4/my/sprite_bg.png) no-repeat -114px -409px;vertical-align:-4px;}
+
+/* testItemBox */
+#myTest .testItemBox{text-align:left;}
+#myTest .testItemBox ul{display:inline-block;}
+#myTest .testItemBox ul:after{content:"";display:block;clear:both;}
+#myTest .testItemBox ul li{float:left;margin-left:10px;text-align:center;}
+#myTest .testItemBox ul li:first-child{padding-left:0;margin-left:0;}
+#myTest .testItemBox ul li .value{position:relative;margin-top:13px;font-size:14px;color:#333;line-height:1;}
+#myTest .testItemBox ul li .value.midLine{/* display:inline-block;*/margin-top:5px;}
+#myTest .testItemBox ul li .value.midLine:before{ content: '';position:absolute;bottom:38%;width:100%;border-bottom:2px solid #ff5b00;z-index:0;}
+#myTest .testItemBox ul li .value .num{font-size:20px;color:#323232;vertical-align: bottom;letter-spacing: 0;line-height: 0.8;font-family:Tahoma;}
+#myTest .testItemBox ul li.price{padding-left:30px;margin-left:45px;border-left:1px solid #e5e5e5;}
+#myTest .testItemBox ul li.price .round{color:#333;}
+#myTest .testItemBox ul li.price .value{margin-top:5px;}
+#myTest .testItemBox ul li.price .value .num{font-size:24px;color:#ff5b00;}
+#myTest .testItemBox ul li:first-child.price{padding-left:0;margin-left:0;border-left:none;}
+#myTest .testItemBox ul li .vat{font-size:13px;color:#999;}
+#myTest .testItemBox .arr li{position:relative;padding-left:43px;margin-left:20px;}
+#myTest .testItemBox .arr li:first-child:before{display:none;}
+#myTest .testItemBox .arr li:before{content:"";display:inline-block;position:absolute;left:0;top:50%;clear:both;width:29px;height:27px;margin-top:-13px;background:url(http://image.career.co.kr/career_new4/my/sprite_bg.png) no-repeat -70px -486px;vertical-align:middle;}
+#myTest .testItemBox .arr li.price{padding-left:43px;padding-left:36px \0/IE8+9;margin-left:20px;margin-left:13px \0/IE8+9;border-left:none;}
+#myTest .testItemBox .line {display:inline-block;color:#ccc;padding:0 10px;}
+
+#myTest .configurationUl {overflow:hidden;}
+#myTest .configurationUl li {width:50%;height:375px;float:left;box-sizing: border-box;}
+#myTest .configurationUl li:first-child {padding:0 10px 10px 0;}
+#myTest .configurationUl li:first-child > div {background:#f3f4f6 url(http://image.career.co.kr/career_new4/common/cu_img.png) no-repeat 50% 47%;}
+#myTest .configurationUl li:first-child + li {padding:0 0 10px 10px;}
+#myTest .configurationUl li:first-child + li > div {background:#f3f4f6 url(http://image.career.co.kr/career_new4/common/cu_img2.png) no-repeat 50% 47%;}
+#myTest .configurationUl li:first-child + li + li {padding:10px 10px 0 0;}
+#myTest .configurationUl li:first-child + li + li > div {background:#f3f4f6 url(http://image.career.co.kr/career_new4/common/cu_img3.png) no-repeat 50% 47%;}
+#myTest .configurationUl li:first-child + li + li + li {padding:10px 0 0 10px;}
+#myTest .configurationUl li:first-child + li + li + li > div {background:#f3f4f6 url(http://image.career.co.kr/career_new4/common/cu_img4.png) no-repeat 50% 47%;}
+#myTest .configurationUl li .cuArea {display:block;height:100%;background-color:#f3f4f6;padding:25px;box-sizing: border-box;}
+#myTest .configurationUl li .round {background:#fff; color:#333;}
+#myTest .configurationUl li .round.orange {color:#ff5b00;font-weight:bold;}
+#myTest .configurationUl li .tit {padding:10px 0 120px;}
+#myTest .configurationUl li .tit p {color:#0078ff;font-size:22px;line-height:1;}
+#myTest .configurationUl li .tit span {display:block;color:#333;font-size:13px;line-height:1;padding:10px 0 0;}
+#myTest .configurationUl li .tit span em {color:#979797;}
+#myTest .configurationUl li .cuTxt {width:100%;display:block;height:auto;float:none;font-size:13px;color:#666;line-height:1.7;padding:5px 0 0;}
+#myTest .configurationUl.ver2  li{width:33.3%;height:245px;}
+#myTest .configurationUl.ver2 li:first-child {padding:0 12.5px 12.5px 0;}
+#myTest .configurationUl.ver2 li:first-child > div {background:#f3f4f6 url(http://image.career.co.kr/career_new4/common/cu_img_v2.png) no-repeat 50% 20%;}
+#myTest .configurationUl.ver2 li:first-child + li {padding:0 12.5px 12.5px 12.5px;}
+#myTest .configurationUl.ver2 li:first-child + li > div {background:#f3f4f6 url(http://image.career.co.kr/career_new4/common/cu_img2_v2.png) no-repeat 50% 20%;}
+#myTest .configurationUl.ver2 li:first-child + li + li {padding:0 0 12.5px 12.5px;}
+#myTest .configurationUl.ver2 li:first-child + li + li > div {background:#f3f4f6 url(http://image.career.co.kr/career_new4/common/cu_img3_v2.png) no-repeat 50% 20%;}
+#myTest .configurationUl.ver2 li:first-child + li + li + li {padding:12.5px 12.5px 0 0;}
+#myTest .configurationUl.ver2 li:first-child + li + li + li > div {background:#f3f4f6 url(http://image.career.co.kr/career_new4/common/cu_img4_v2.png) no-repeat 50% 20%;}
+#myTest .configurationUl.ver2 li:first-child + li + li + li + li {padding:12.5px 12.5px 0 12.5px;}
+#myTest .configurationUl.ver2 li:first-child + li + li + li + li > div {background:#f3f4f6 url(http://image.career.co.kr/career_new4/common/cu_img5_v2.png) no-repeat 50% 20%;}
+#myTest .configurationUl.ver2 li:first-child + li + li + li + li + li {padding:12.5px 0 0 12.5px;}
+#myTest .configurationUl.ver2 li:first-child + li + li + li + li + li > div {background:#f3f4f6 url(http://image.career.co.kr/career_new4/common/cu_img6_v2.png) no-repeat 50% 20%;}
+#myTest .configurationUl.ver2 li .tit p {padding:80px 0 0;text-align:center;line-height:1;}
+#myTest .configurationUl.ver2 li .tit p span {font-size:17px;color:#0078ff;line-height:1;padding:5px 0 0;}
+#myTest .configurationUl.ver2 li .tit span {display:block;text-align:center;line-height:1.5;padding:8 0 0;}
+#myTest .configurationUl.ver2 li .cuArea {padding:15px;}
+#myTest .configurationUl.ver2 li .tit {padding:0;}
+
+#myTest .useWay {padding:10px 20px;border-bottom:1px solid #e5e5e5;}
+#myTest .useWay li {position:relative;padding:0 0 0 15px;line-height:2;color:#464646;font-size:13px;}
+#myTest .useWay li.pdnon {padding:0;}
+#myTest .useWay li em.number {position:absolute;top:5px;left:0;line-height:1;}
+#myTest .useWay li span {color:#0078ff;font-weight:bold;}
+#myTest .uw_txt {display:block;color:#ff6600;font-size:12px;line-height:1.2;padding:20px 0 0;}
+#myTest .uw_txt.ver2 {display:block;color:#ff6600;font-size:12px;line-height:1.5;padding:20px 0 0 13px;background:url(http://image.career.co.kr/career_new4/common/uw_txt_point.png) no-repeat 0 26px;}
+#myTest .useWay .testItemBox li {padding-left:40px;margin-left:0;background: url(http://image.career.co.kr/career_new4/common/li_plus.png) no-repeat 15px 85%}
+#myTest .useWay .testItemBox li:first-child {padding-left:0;background:none;}
+#myTest .useWay .testItemBox li .value {line-height:1.7;}
+#myTest .useWay .testItemBox li.equals {background: url(http://image.career.co.kr/career_new4/common/li_equals.png) no-repeat 15px 82%}
+#myTest .useWay .testItemBox li.equals .round {color: #fff;background: #323232;border: 1px solid #323232;}
+#myTest .useWay .testItemBox li.equals .value .num {color: #0084ff;}
+#myTest .useWay .testItemBox ul li .value .num {color:#666;vertical-align: top;line-height: 0.8;}
+
+#myTest .sampleUl {display:block;overflow:hidden;width:calc(100% + 30px);padding:0 0 50px;margin-left:-30px;}
+#myTest .sampleUl li {float:left;width:calc(33.33% - 30px);margin-left:30px;padding:0;text-align:center;box-sizing:border-box;}
+#myTest .sampleUl li:first-child {padding:0;}
+#myTest .sampleUl li p {color:#666;font-size:13px;}
+#myTest .sampleUl li a {display:block;position:relative;}
+#myTest .sampleUl li a:hover {color:#666;font-size:13px;}
+#myTest .sampleUl li img {display:block;width:100%;padding:0 0 10px;box-sizing: border-box;}
+#myTest .sampleUl li a span {position:absolute;bottom:15px;right:0;width:auto;}
+#myTest .sampleUl li a span img {width:auto;}
+
+#myTest .btnWrap {padding-top:0;font-size:0;}
+#myTest .btnWrap .btn {width:208px;height:60px;line-height:58px;margin:0 5px;font-size:17px;font-weight:bold;}
+
+.popImg {max-width:610px;min-width:600px;margin:auto;}
+.popImg img {width:100%;}
+
+#myTest .boardArea tbody th,
+#myTest .boardArea tbody td {text-align:center;}
+
+
+
+/* //CSS */
