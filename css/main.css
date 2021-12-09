@@ -150,8 +150,8 @@
 .main_page .msSdir .contr{}
 .main_page .msSdir .contr .uislide_prev,
 .main_page .msSdir .contr .uislide_next{position: absolute; top: 50%; margin-top: -40px; width: 30px; height: 51px; background: no-repeat center center;}
-.main_page .msSdir .contr .uislide_prev{background-image: url(../images/_main/contr_prev.png); left: -50px;}
-.main_page .msSdir .contr .uislide_next{background-image: url(../images/_main/contr_next.png); right: -50px;}
+.main_page .msSdir .contr .uislide_prev{background-image: url(../images/main/contr_prev.png); left: -50px;}
+.main_page .msSdir .contr .uislide_next{background-image: url(../images/main/contr_next.png); right: -50px;}
 .main_page .msSdir .contr .slick-dots{text-align: center; margin-top: 20px;}
 .main_page .msSdir .contr .slick-dots li{width: 10px; height: 10px; display: inline-block; vertical-align: top; margin: 0 2px; background: #6097d4; border-radius: 50%;}
 .main_page .msSdir .contr .slick-dots li.slick-active{background: #303a62;}
